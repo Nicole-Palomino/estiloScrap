@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #eee;
+}
+
+.header {
+    background-color: #03e8a6;
+    width: 100%;
+    height: 130px;
+}
+  
+.header h1 {
+    margin: auto;
+    font-size: 70px;
+    font-family: comic sans MS;
+    text-align: center;
+}
+
+header{
+    background-color: #03A9F4;
+    width: 100%;
+    clear: both;
+    display: table;
+}
+
+.menu{
+    width: 900px;
+    margin: 2px auto;
+}
+
+img{
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+    float: left;
+    padding: 10px;
+}
+
+nav{
+    float: right;
+}
+
+nav ul li{
+    list-style: none;
+    margin-left: 60px;
+    padding: 25px 0;
+    float: left;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: white;
+}
+
+.titulo{
+    padding: 8px;
+    text-align: center;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contenedor{
+    width: 95%;
+    flex-wrap: wrap;
+    display: flex;
+    margin: auto;
+}
+
+.item{
+    border: 1px solid black;
+    background-color: #fff;
+    cursor: pointer;
+    float: left;
+    margin: 23px;
+    width: 28%;
+    padding: 10px;
+    position:relative;
+}
+
+.item-text{
+    padding:5px;
+    text-align: center;
+}
+
+.item-text h3 {
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.item img{
+    width: 93%;
+    height: 75%;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    opacity: .8;
+}
+
+.item img:hover{
+   color: #777;
+   opacity: 1;
+}
+
+.footer {
+    width: 100%;
+    height: 100px;
+    background-color: #5f36f9;
+    clear: both;
+}
+  
+.tres {
+    float: left;
+    display: block;
+}
+  
+.tres h5 {
+    margin: 32px 20px 32px 120px;
+    color: #fff;
+    font-size: 30px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+  
+.tres img {
+    margin: 24px 20px 0;
+    width: 52px;
+    height: 40px;
+    float: left;
+    display: block;
+}
+  
+.copy {
+    float: right;
+    display: block;
+}
+  
+.copy h5 {
+    margin: 32px 24px 0;
+    color: #fff;
+    font-size: 28px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+    
+    

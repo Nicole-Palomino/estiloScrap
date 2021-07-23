@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* *******************CABECERA Y VOLVER********************* */
+header {
+    width: 100%;
+    height: 130px;
+    background-color: #03e8a6;
+}
+
+header h1 {
+    font-size: 80px;
+    font-family: comic sans MS;
+    text-align: center;
+}
+
+.volver {
+    margin: 20px 0;
+    padding: 0 20px;
+    width: 100%;
+    height: 50px;
+}
+
+.volver a {
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ***************************FORMULARIO*********************+ */
+form {
+    margin-top: 40px;
+    padding: 3px;
+    box-shadow: 2px 2px 6px 6px #03e8a6;
+}
+
+form h2 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.inset {
+    padding: 15px;
+    width: 100%;
+}
+
+input[type="text"],
+input[type="password"] {
+    padding: 10px;
+    width: 88%;
+    font-size: 20px;
+    border: none;
+}
+
+.input-container {
+    margin-bottom: 15px;
+    border: 1px solid #aaa;
+}
+
+.icon {
+    min-width: 50px;
+    color: #000;
+    text-align: center;
+}
+
+.btn {
+    padding: 15px 20px;
+    width: 100%;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 8px;
+    border: none;
+    background-color: #5f36f9;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #8667f8;
+}
+
+p {
+    margin: 15px 0;
+    text-align: center;
+}
+
+.link {
+    color: #5f36f9;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: cornflowerblue;
+}
+
+@media(min-width:768px) {
+    header {
+        width: 100%;
+        height: 130px;
+    }
+
+    form {
+        margin: auto;
+        margin-top: 40px;
+        width: 500px;
+        border-radius: 2%;
+    }
+}

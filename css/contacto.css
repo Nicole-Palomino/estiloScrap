@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* *******************CABECERA Y VOLVER********************* */
+header {
+    width: 100%;
+    height: 130px;
+    background-color: #03e8a6;
+}
+
+header h1 {
+    font-size: 80px;
+    font-family: comic sans MS;
+    text-align: center;
+}
+
+.volver {
+    margin: 20px 0;
+    padding: 0 20px;
+    width: 100%;
+    height: 50px;
+}
+
+.volver a {
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* **************************FORMULARIO**************************** */
+.main-content{
+	margin: 50px auto;
+	padding: 10px 10px;
+	width: 70%;
+	height: auto;
+	border-radius: 10px;
+	box-shadow: 2px 2px 6px 6px #03e8a6;
+}
+
+.rpedido p {
+	padding: 20px 5px;
+	text-align: center;
+	font-size: 32px;
+}
+
+.div-row {
+	display: block;
+	padding: 10px 20px;
+}
+
+.div-row label {
+	width: 25%;
+	display: inline-block;
+	text-align: left;
+	padding-right: 10px;
+}
+
+.div-row label p {
+	font-size: 20px;
+	font-family: verdana;
+}
+
+input{
+	padding: 5px;
+	width: 45%;
+	height: 30px;
+	border-radius: 4px;
+	font-size: 1em;
+}
+
+.div-rowcenter{
+    text-align: center;
+}
+
+.div-rowcenter .button{
+	width: 320px;
+    height: 50px;
+	background-color: #5f36f9;
+	font-size: 20px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-weight: bold;
+	border-radius: 10px;
+    cursor: pointer;
+}
+
+.div-rowcenter .button:hover {
+	background-color: #8667f8;
+}
+
+#casillam{
+	margin: 10px 230px;
+	resize: none; 
+	padding: 5px;
+}
+

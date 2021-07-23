@@ -1,0 +1,213 @@
+body{
+    padding: auto;
+    padding: auto;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body {
+    width: 100%;
+    height: 700px;
+}
+
+.header {
+    background-color: #03e8a6;
+    width: 100%;
+    height: 130px;
+}
+
+.header h1 {
+    margin: auto;
+    font-size: 70px;
+    font-family: comic sans MS;
+    font-weight: bold;
+    text-align: center;
+}
+
+.header a {
+    color: #000;
+    text-decoration: none;
+}
+
+.header a:hover {
+    color: #fff;
+}
+
+/* menu de navegacion */
+  
+.navegation {
+    width: 100%;
+    height: 110px;
+    background-color: #03e8a6;
+}
+  
+.navegation ul {
+    list-style: none;
+}
+  
+.navegation li {
+    float: left;
+    display: block;
+}
+  
+a {
+    color: #fff;
+    text-decoration: none;
+}
+  
+a:hover {
+    color: #5f36f9;
+}
+  
+.navegation li:hover {
+    cursor: pointer;
+}
+
+.li {
+    margin: 40px 70px;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+  
+nav ul li a img {
+    margin: 33px 80px;
+    width: 45px;
+    height: 45px;
+}
+  
+.contact {
+    margin: 40px 50px;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+  
+/* cabecera */
+  
+.header {
+    background-color: #03e8a6;
+    width: 100%;
+    height: 130px;
+}
+  
+.header h1 {
+    margin: auto;
+    font-size: 70px;
+    font-family: comic sans MS;
+    text-align: center;
+}
+
+/****    Dibujos para pintar *****/
+
+.conteiner{
+    color: rgb(33, 25, 34);
+    display: block;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 4704px;
+    width: 100%;
+    text-size-adjust: 100%; 
+    font-size: 12px;
+    margin: 0;
+}
+
+.conteiner h2 {
+    margin: 45px 0 20px 0;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.conteiner div{
+
+    width: 25%;
+    height: 450px;
+    margin: 35px 50px;
+    float: left;
+    display: block;
+    border-radius: 16px;
+}
+
+.conteiner div .primero{
+    width: 100%;
+    height: 350px;
+    float: left;
+    display: block;
+    padding: 0;
+    margin: 0;
+    background-color: #efefef;
+}
+
+.conteiner div .primero img{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 350px;
+    border-radius: 16px;
+}
+
+.conteiner div .segundo{
+    width: 90%;
+    height: 50px;
+    margin: 20px 15px;
+    padding: 0;
+    float: left;
+    background-color: #03e8a6;
+    border-radius: 16px;
+}
+
+.conteiner div .segundo p{
+    text-align: center;
+    font-size: 2em;
+    padding: 0;
+    margin: 10px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+/***Pie de página**/
+.footer {
+    width: 100%;
+    height: 100px;
+    background-color: #5f36f9;
+    clear: both;
+}
+
+.tres {
+    float: left;
+    display: block;
+}
+
+.tres img {
+    margin: 24px 20px 24px 40px;
+    width: 52px;
+    height: 52px;
+    float: left;
+    display: block;
+}
+
+.tres h5 {
+    margin: 32px 20px 32px 120px;
+    color: #fff;
+    font-size: 30px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.copy {
+    float: right;
+    display: block;
+}
+
+.copy h5 {
+    margin: 32px 24px 0;
+    color: #fff;
+    font-size: 30px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.copy h5 b {
+    font-weight: bold;
+}

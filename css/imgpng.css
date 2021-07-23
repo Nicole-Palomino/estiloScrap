@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #eee;
+}
+
+.header {
+    background-color: #03e8a6;
+    width: 100%;
+    height: 130px;
+}
+  
+.header h1 {
+    margin: auto;
+    font-size: 70px;
+    font-family: comic sans MS;
+    text-align: center;
+}
+
+header {
+    background-color: #03A9F4;
+    width: 100%;
+    clear: both;
+    display: table;
+}
+
+.menu {
+    width: 900px;
+    margin: 2px auto;
+}
+
+.menu a img {
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+    float: left;
+    padding: 10px;
+}
+
+nav {
+    float: right;
+}
+
+nav ul li {
+    list-style: none;
+    margin-left: 60px;
+    padding: 25px 0;
+    float: left;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: white;
+}
+
+.title {
+    margin-top: 20px;
+    width: 100%;
+    height: 80px;
+}
+
+.title h2 {
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+section {
+    margin: 20px auto;
+    width: 96%;
+    height: 2000px;
+    grid-gap: 10px;
+    grid-template-columns: 32% 32% 32%;
+    display: grid;
+    box-shadow: 5px 5px 5px #ccc;
+}
+
+section .images {
+    margin: 15px;
+    position: relative;
+}
+
+.images {
+    position: relative;
+}
+
+.cont {
+    line-height: 0;
+    overflow: hidden;
+}
+
+.cont img {
+    filter: blur(0px);
+    transition: filter 0.3s ease-in;
+    transform: scale(1.1);
+    margin: 22px;
+}
+
+.name {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration: none;
+    z-index: 1;
+    position: absolute;
+    height: 390px;
+    width: 372px;
+    opacity: 0;
+    transition: opacity .5s;
+    background: rgba(90,0,10,0.4);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+.images:hover .name {
+    opacity: 1;
+}
+
+.images:hover .cont img {
+    filter: blur(2px);
+}
+  
+@media (hover: none) { 
+    .name {
+        opacity: 1;
+    }
+
+    .cont img {
+        filter: blur(2px);
+    }
+}
+
+/* ***************PIE DE PAGINA********************** */
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: #5f36f9;
+    clear: both;
+}
+
+.tres {
+    float: left;
+    display: block;
+}
+
+.tres h5 {
+    margin: 32px 20px 32px 120px;
+    color: #fff;
+    font-size: 30px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+  
+.tres img {
+    margin: 24px 20px 24px 40px;
+    width: 52px;
+    height: 52px;
+    float: left;
+    display: block;
+}
+  
+.copy {
+    float: right;
+    display: block;
+}
+  
+.copy h5 {
+    margin: 32px 24px 0;
+    color: #fff;
+    font-size: 30px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
