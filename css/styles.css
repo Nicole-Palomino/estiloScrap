@@ -95,6 +95,45 @@ header .d-flex .btn {
     text-decoration: none;
 }
 
+/* PIE DE PAGINA */
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: #5f36f9;
+    bottom: 0;
+    position: relative;
+}
+
+.footer-o {
+    padding: 25px;
+}
+
+.footer-o h4 {
+    padding: 10px 5px;
+    color: #fff;
+    font-size: 30px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    float: left;
+    display: block;
+}
+
+.footer-o h5 {
+    padding: 10px 5px;
+    color: #fff;
+    font-size: 30px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    float: right;
+    display: block;
+}
+
+.footer-o img {
+    margin-right: 5px;
+    width: 52px;
+    height: 52px;
+    float: left;
+    display: block;
+}
+
 @media (max-width: 992px) {
     .bd-placeholder-img-lg {
       font-size: 3.5rem;
