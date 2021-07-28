@@ -167,6 +167,19 @@ footer {
         height: 60px;
         background-color: #03e8a6;
     }
+
+    .footer-o h4 {
+        font-size: 20px;
+    }
+
+    .footer-o h5 {
+        font-size: 20px;
+    }
+    
+    .footer-o img {
+        width: 42px;
+        height: 42px;
+    }
 }
 
 @media (max-width: 576px) {
@@ -198,5 +211,29 @@ footer {
 
     .buttons .btn {
         visibility: hidden;
+    }
+
+    footer {
+        height: 125px;
+    }
+
+    .footer-o h4 {
+        padding: 5px 5px;
+        font-size: 20px;
+        float: left;
+        display: block;
+    }
+    
+    .footer-o h5 {
+        padding: 10px 5px;
+        font-size: 20px;
+        float: left;
+    }
+    
+    .footer-o img {
+        margin-right: 8px 0;
+        width: 32px;
+        height: 32px;
+        float: left;
     }
 }
