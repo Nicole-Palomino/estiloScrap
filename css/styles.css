@@ -56,9 +56,9 @@ header .d-flex .btn {
 }
 
 /* MENU DE NAVEGACION */
-.navbar {
+/* .navbar {
     background-color: #03e8a6;
-}
+} */
 
 .nav-item {
     margin-left: 10px;
@@ -93,6 +93,59 @@ header .d-flex .btn {
 
 .col-xs-12 button a {
     text-decoration: none;
+}
+
+/* CONTENIDO IMAGENES */
+.main02{
+    width: 100%;
+
+}
+.main02 img{
+    box-shadow: 0 0 6px rgba(0, 0, 0, .5);
+    opacity: .8;
+}
+.main02 img:hover{
+    color: #777;
+    opacity: 1;
+}
+
+/* .altura-a-b{
+    padding: 100px 0;
+} */
+main{
+    border: #000;
+    width: 70%;
+    margin: 10px auto;
+}
+
+main img{
+    box-shadow: 0 0 6px rgba(0, 0, 0, .5);
+}
+main img:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+
+.main03{
+    width: 80%;
+}
+.main03 img{
+    box-shadow: 0 0 6px rgba(0, 0, 0, .5);
+    color: #777;
+    opacity: 1;
+    height: 300px;
+}
+.main03 img:hover{
+    cursor: pointer;
+    color: #777;
+    opacity: 1;
+}
+.main03 h5{
+    color: #000;
+}
+.main03 h3{
+    font-weight: bold;
 }
 
 /* PIE DE PAGINA */
@@ -136,7 +189,7 @@ footer {
 
 @media (max-width: 992px) {
     .bd-placeholder-img-lg {
-      font-size: 3.5rem;
+        font-size: 3.5rem;
     }
     
     header {
@@ -183,6 +236,10 @@ footer {
 }
 
 @media (max-width: 576px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+
     header {
         height: 420px;
     }
@@ -194,6 +251,10 @@ footer {
 }
 
 @media (max-width: 360px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+
     header {
         height: 300px;
     }
