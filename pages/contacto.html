@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="icon" href="../images/LOGO.ico">
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/navbars/">
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/contacto.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body class="bg-secondary">
+    <header>
+        <div class="container rs">
+            <a href="">
+                <img src="../images/face.png">
+            </a>
+            <a href="">
+                <img src="../images/twitter-logo-4.png">
+            </a>
+            <a href="">
+                <img src="../images/pinterest_PNG45.png">
+            </a>
+        </div>
+        <h1 class="text-center text-dark">
+            Estilo Scrap
+        </h1>
+        <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn fs-4 fw-bold" type="submit">Search</button>
+        </form>
+
+        <div class="text-center buttons">
+            <button type="button" class="btn fs-4">
+                <a href="" class="text-light">Imágenes PNG</a>
+            </button>
+            <button type="button" class="btn fs-4">
+                <a href="../pages/jpg.html" class="text-light">Imágenes JPG</a>
+            </button>
+            <button type="button" class="btn fs-4">
+                <a href="" class="text-light">Para pintar</a>
+            </button> 
+        </div> 
+    </header>
+
+    <div class="container volver">
+        <span class="fs-3">
+            <a href="../pages/index.html" class="text-dark">
+                <i class="bi bi-arrow-left-circle-fill"> Volver al Inicio</i>
+            </a>
+        </span>
+    </div>
+
+    <section class="d-flex justify-content-center">
+        <div class="card col-sm-6 p-3">
+            <div class="mb-3">
+                <h4 class="text-center">Contacto</h4>
+            </div>
+            <div class="mb-2">
+                <form action="">
+                    <div class="mb-2">
+                        <label for="nombre">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+                                <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                            </svg>
+                            Nombre :</label>
+                        <input type="text" class="form-control" name="nombre" id="nombre" placeholder="Ej: Gabriel" required>
+                    </div>
+                    <div class="mb-2">
+                        <label for="apellido">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+                                <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                            </svg>
+                            Apellido :</label>
+                        <input type="text" class="form-control" name="apellido" id="apellido" placeholder="Ej: Pacheco" required>
+                    </div>
+                    <div class="mb-2">
+                        <label for="correo"> 
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                                <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z"/>
+                            </svg>    
+                            Correo :
+                        </label>
+                        <input type="text" class="form-control" name="correo" id="correo" placeholder="Ej: gpmcheco@gmail.com" required>
+                    </div>
+                    <div class="mb-2">
+                        <label for="tell">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+                                <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                            </svg>
+                            Teléfono :</label>
+                        <input type="tel" class="form-control" required>
+                    </div>
+                    <div class="mb-2">
+                        <label for="sexo">Sexo :</label>
+                        <input type="radio" name="sexo" id="masculino" value="masculino" required> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-gender-male" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M9.5 2a.5.5 0 0 1 0-1h5a.5.5 0 0 1 .5.5v5a.5.5 0 0 1-1 0V2.707L9.871 6.836a5 5 0 1 1-.707-.707L13.293 2H9.5zM6 6a4 4 0 1 0 0 8 4 4 0 0 0 0-8z"/>
+                          </svg> Masculino
+                        <input type="radio" name="sexo" id="femenino" value="femenino" required> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-gender-female" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M8 1a4 4 0 1 0 0 8 4 4 0 0 0 0-8zM3 5a5 5 0 1 1 5.5 4.975V12h2a.5.5 0 0 1 0 1h-2v2.5a.5.5 0 0 1-1 0V13h-2a.5.5 0 0 1 0-1h2V9.975A5 5 0 0 1 3 5z"/>
+                          </svg> Femenino
+                    </div>
+                    <div class="mb-2">
+                        <label for="mensaje">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                                <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z"/>
+                            </svg> Mensaje :
+                        </label>
+                        <textarea name="mensaje" id="mensaje" class="form-control md-textarea" placeholder="Escriba su mensaje" rows="5" required></textarea>
+                    </div>
+                    <div class="mb-2">
+                        <button class="btn btn-primary">Enviar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container footer-o">
+            <img src="../images/earth-png.png"/>
+            <h4><b> Perú | Español | S/ </b></h4>
+            <h5 class="right"><b> © 2021 Estilo Scrap </b></h5>
+        </div>
+    </footer> 
+</body>
+</html>

@@ -56,19 +56,6 @@ header .d-flex .btn {
 }
 
 /* MENU DE NAVEGACION */
-.navbar {
-    background-color: #03e8a6;
-}
-
-.nav-item {
-    margin-left: 10px;
-}
-
-.nav-link {
-    font-size: 25px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', Geneva, Verdana, sans-serif;
-}
-
 .bd-placeholder-img {
     font-size: 1.125rem;
     text-anchor: middle;
@@ -77,125 +64,53 @@ header .d-flex .btn {
     user-select: none;
 }
 
+.navbar {
+    background-color: #03e8a6;
+}
+
+.nav-item {
+    padding: 5px 8px;
+}
+
+.nav-link {
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nav-link img {
+    width: 30px;
+    height: 30px;
+}
+
 /* SECTION */
-.contenido {
-    margin-top: 50px;
-    margin-bottom: 40px;
-    box-shadow: 5px 5px 5px #ccc;
+.altura-a-b{
+    padding: 100px 0;
+} 
+
+.main03{
+    width: 80%;
+    margin: 10px auto; 
 }
 
-.container h2 {
-    margin-bottom: 50px;
-    font-size: 50px;
-    font-family: comic sans MS;
+.main03 img{
+    box-shadow: 0 0 6px rgba(0, 0, 0, .5);
+    color: #777;
+    opacity: .8;
+    height: 300px;
+    border-radius: 15px;
 }
 
-.d-block {
-    margin: 0 420px;
-    height: 400px;
-}
-
-.card {
-    margin: 0 0 20px 395px;
-}
-
-.card-img-top {
-    width: 20rem;
-    height: 18rem;
-}
-
-/* BOTON DESLIZABLE */
-#btn {
-    text-align: center;
-}
-
-.btn-slide2 {
-    margin: 15px;
-    padding: 0;
-    position: relative;
-    width: 200px;
-    height: 50px;
-    background: #fdfdfd;
-    line-height: 50px;
-    border-radius: 50px;
-    display: inline-block;
-    transition: .5s;
-}
-
-.btn-slide2 {
-    border: 2px solid #5f36f9;
-}
-
-.btn-slide2:hover {
-    background-color: #5f36f9;
-}
-
-.btn-slide2:hover span.circle2 {
-    left: 100%;
-    margin-left: -45px;
-    background-color: #fdfdfd;
-    color: #0099cc;
-}
-
-.btn-slide2:hover span.circle2 {
-    color: #5f36f9;
-}
-
-.btn-slide2:hover span.title2 {
-    left: 40px;
-    opacity: 0;
-}
-
-.btn-slide2:hover span.title-hover2 {
+.main03 img:hover{
+    color: #777;
     opacity: 1;
-    left: 40px;
 }
 
-.btn-slide2 span.circle2 {
-    margin: 5px;
-    width: 40px;
-    height: 40px;
-    color: #fff;
-    background-color: #0099cc;
-    border-radius: 50%;
-    position: absolute;
-    line-height: 42px;
-    top: 0;
-    left: 0;
-    float: left;
-    display: block;
-    transition: .5s;
-}
-
-.btn-slide2 span.circle2 {
-    background-color: #5f36f9;
-}
-
-.btn-slide2 span.title2,
-.btn-slide2 span.title-hover2 {
-    margin: 0 auto;
+.main03 h5{
     color: #000;
-    position: absolute;
-    left: 90px;
-    font-size: 16px;
+}
+
+.main03 h3{
     font-weight: bold;
-    text-align: center;
-    transition: .5s;
-}
-
-.btn-slide2 span.title2,
-.btn-slide2 span.title-hover2 {
-    color: #5f36f9;
-    left: 80px;
-}
-
-.btn-slide2 span.title-hover2 {
-    left: 80px;
-    opacity: 0;
-}
-
-.btn-slide2 span.title-hover2 {
-    color: #fff;
 }
 
 /* PIE DE PAGINA */
@@ -238,10 +153,6 @@ footer {
 }
 
 @media (max-width: 992px) {
-    .bd-placeholder-img-lg {
-      font-size: 3.5rem;
-    }
-    
     header {
         height: 400px;
     }
@@ -250,17 +161,13 @@ footer {
         margin: 20px 245px;
         width: 50%;
     }
-
-    .card {
-        margin: 0 0 20px 305px;
-    }
 }
 
 @media (max-width: 768px) {
     .bd-placeholder-img-lg {
-      font-size: 3.5rem;
+        font-size: 3.5rem;
     }
-    
+
     header {
         height: 400px;
     }
@@ -268,15 +175,6 @@ footer {
     header .d-flex {
         margin: 20px 195px;
         width: 50%;
-    }
-
-    .navbar {
-        height: 60px;
-        background-color: #03e8a6;
-    }
-
-    .card {
-        margin: 0 0 20px 187px;
     }
 
     .footer-o h4 {
@@ -302,10 +200,6 @@ footer {
         margin: 20px 90px;
         width: 70%;
     }
-
-    .card {
-        margin: 0 0 20px 97px;
-    }
 }
 
 @media (max-width: 360px) {
@@ -326,15 +220,6 @@ footer {
 
     .buttons .btn {
         visibility: hidden;
-    }
-
-    .card {
-        margin: 0 0 20px 6px;
-    }
-
-    .card-img-top {
-        width: 13rem;
-        height: 16rem;
     }
 
     footer {
