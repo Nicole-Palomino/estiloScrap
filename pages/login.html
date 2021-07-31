@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="icon" href="../images/LOGO.ico">
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/navbars/">
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Login</title>
+    <style>
+        body {
+          background-color: #c8eaec;
+        }
+      </style>
+</head>
+<body>
+    <div class="container volver">
+        <span>
+            <a href="../pages/index.html">
+                <i class="bi bi-arrow-left-circle-fill"> Volver al Inicio</i>
+            </a>
+        </span>
+    </div>
+    
+    <div class="container">    
+    <div id="loginbox" style="margin-top:50px;" class="mainbox col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">                    
+    <div class="panel panel-info" >
+        <div class="panel-heading">
+        <div class="panel-title">Login</div>
+        <div style="float:right; font-size: 80%; position: relative; top:-10px">
+            <a href="#">Olvido su contraseña?</a>
+        </div>
+    </div>     
+
+    <div style="padding-top:30px" class="panel-body" >
+    <div style="display:none" id="login-alert" class="alert alert-danger col-sm-12"></div>                   
+    <form id="loginform" class="form-horizontal" role="form">
+                                    
+    <div style="margin-bottom: 25px" class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+        <input id="login-username" type="text" class="form-control" name="username" value="" placeholder="Correo electronico...">                                        
+    </div>
+                                
+    <div style="margin-bottom: 25px" class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+        <input id="login-password" type="password" class="form-control" name="password" placeholder="Contraseña">
+    </div>
+                                                                  
+    <div class="input-group">
+    <div class="checkbox">
+    <label>
+    <input id="login-remember" type="checkbox" name="remember" value="1"> Recordarme </label>
+    </div>
+    
+    <div style="margin-top:10px" class="form-group">
+                                  
+    <div class="col-sm-12 controls">
+    <a id="btn-login" href="#" class="btn btn-success">Ingresar  </a>
+    <a id="btn-fblogin" href="../pages/registro.html" class="btn btn-primary">Registrarse</a>
+    </div>    
+
+    
+    </body>
+</html>
