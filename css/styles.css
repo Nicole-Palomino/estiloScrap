@@ -86,7 +86,7 @@ header .d-flex .btn {
 .contenido {
     margin-top: 50px;
     margin-bottom: 40px;
-    box-shadow: 5px 5px 5px #ccc;
+    box-shadow: -6px 10px 10px -6px #ccc;
 }
 
 .container h2 {
