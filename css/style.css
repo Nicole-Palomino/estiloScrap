@@ -3,9 +3,93 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Patrick Hand', cursive;
-    font-size: 1.2rem;
 }
 :root{
     --primary: #25e458;
     --secondary: #fff;
+}
+.navbar{
+    font-size: 1.3rem;
+}
+.img{
+    padding: 5px;
+}
+#btn {
+    text-align: center;
+}
+.btn-slide2 {
+    margin: 15px;
+    padding: 0;
+    position: relative;
+    width: 200px;
+    height: 50px;
+    background: #fdfdfd;
+    line-height: 50px;
+    border-radius: 50px;
+    display: inline-block;
+    transition: .5s;
+}
+.btn-slide2 {
+    border: 2px solid #5f36f9;
+}
+.btn-slide2:hover {
+    background-color: #5f36f9;
+}
+.btn-slide2:hover span.circle2 {
+    left: 100%;
+    margin-left: -45px;
+    background-color: #fdfdfd;
+    color: #0099cc;
+}
+.btn-slide2:hover span.circle2 {
+    color: #5f36f9;
+}
+.btn-slide2:hover span.title2 {
+    left: 40px;
+    opacity: 0;
+}
+.btn-slide2:hover span.title-hover2 {
+    opacity: 1;
+    left: 40px;
+}
+.btn-slide2 span.circle2 {
+    margin: 5px;
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    background-color: #0099cc;
+    border-radius: 50%;
+    position: absolute;
+    line-height: 42px;
+    top: 0;
+    left: 0;
+    float: left;
+    display: block;
+    transition: .5s;
+}
+.btn-slide2 span.circle2 {
+    background-color: #5f36f9;
+}
+.btn-slide2 span.title2,
+.btn-slide2 span.title-hover2 {
+    margin: 0 auto;
+    color: #000;
+    position: absolute;
+    left: 90px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    transition: .5s;
+}
+.btn-slide2 span.title2,
+.btn-slide2 span.title-hover2 {
+    color: #5f36f9;
+    left: 80px;
+}
+.btn-slide2 span.title-hover2 {
+    left: 80px;
+    opacity: 0;
+}
+.btn-slide2 span.title-hover2 {
+    color: #fff;
 }
