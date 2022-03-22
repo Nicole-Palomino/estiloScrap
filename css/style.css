@@ -6,7 +6,9 @@
 }
 :root{
     --primary: #25e458;
-    --secondary: #fff;
+    --secondary: #fdfdfd;
+    --info: #0099cc;
+    --dark: #000;
 }
 .navbar{
     font-size: 1.3rem;
@@ -23,26 +25,26 @@
     position: relative;
     width: 200px;
     height: 50px;
-    background: #fdfdfd;
+    background: var(--secondary);
     line-height: 50px;
     border-radius: 50px;
     display: inline-block;
     transition: .5s;
 }
 .btn-slide2 {
-    border: 2px solid #5f36f9;
+    border: 2px solid var(--primary);
 }
 .btn-slide2:hover {
-    background-color: #5f36f9;
+    background-color: var(--primary);
 }
 .btn-slide2:hover span.circle2 {
     left: 100%;
     margin-left: -45px;
-    background-color: #fdfdfd;
-    color: #0099cc;
+    background-color: var(--secondary);
+    color: var(--info);
 }
 .btn-slide2:hover span.circle2 {
-    color: #5f36f9;
+    color: var(--primary);
 }
 .btn-slide2:hover span.title2 {
     left: 40px;
@@ -56,8 +58,8 @@
     margin: 5px;
     width: 40px;
     height: 40px;
-    color: #fff;
-    background-color: #0099cc;
+    color: var(--secondary);
+    background-color: var(--info);
     border-radius: 50%;
     position: absolute;
     line-height: 42px;
@@ -68,12 +70,12 @@
     transition: .5s;
 }
 .btn-slide2 span.circle2 {
-    background-color: #5f36f9;
+    background-color: var(--primary);
 }
 .btn-slide2 span.title2,
 .btn-slide2 span.title-hover2 {
     margin: 0 auto;
-    color: #000;
+    color: var(--dark);
     position: absolute;
     left: 90px;
     font-size: 16px;
@@ -83,7 +85,7 @@
 }
 .btn-slide2 span.title2,
 .btn-slide2 span.title-hover2 {
-    color: #5f36f9;
+    color: var(--primary);
     left: 80px;
 }
 .btn-slide2 span.title-hover2 {
@@ -91,5 +93,5 @@
     opacity: 0;
 }
 .btn-slide2 span.title-hover2 {
-    color: #fff;
+    color: var(--secondary);
 }
